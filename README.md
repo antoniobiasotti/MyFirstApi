@@ -1,6 +1,6 @@
 # MyFirstApi
 
-Criação de uma API em C# e .NET
+Criação de uma API em C# e .NET na IDE Visual Studio Community 2022.
 
 ****
 
