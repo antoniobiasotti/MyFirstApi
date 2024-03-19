@@ -7,6 +7,8 @@ namespace MyFirstApi.Controllers
     public class UserController : ControllerBase
     {
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
         public IActionResult Get(string username)
         {
             return Ok("antonio");
