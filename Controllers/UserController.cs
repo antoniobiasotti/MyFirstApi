@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace MyFirstApi.Controllers
 {
@@ -7,5 +6,10 @@ namespace MyFirstApi.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        [HttpGet]
+        public IActionResult Get(string username)
+        {
+            return Ok("antonio");
+        }
     }
 }
